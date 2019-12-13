@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="js/jquery.js"></script>
+</head>
+
+<body>
+    <main class="vh100 ">
+        <header>
+            <div class="container-fluid">
+                <a href="#" class="link-logo"><img class="logo-m" src="../assets/m.png"></a>
+                <button class="border-white-btn  white-font ">comprar ahora</button>
+                <nav>
+                    <a href="./home.html" class="link-logo mb-4"><img class="logo-mafrox" src="../assets/logo-mafrox.svg"></a>
+                    <a href="./nosotros.html">NOSOTROS</a>
+                    <a href="./aprendiendo.html">APRENDIENDO</a>
+                    <a href="./nuestrosCortes.html">NUESTROS CORTES</a>
+                    <a href="./contacto.html">CONTACTO</a>
+                </nav>
+                <a href="#" class="hamb"><i class="fas fa-bars"></i></a>
+            </div>
+        </header>
+        <section class="centered-contacto">
+            <div class=" flex-column flex white-font pt-5-xs">
+                <h1 class="ft-4-5-xs">CONTACTO</h1>
+                <p class="mb-0 ft-2-xs">en que podemos ayudarte</p>
+                </hr>
+                <p class="mb-5 ft-2-xs">Escríbenos a contacto@mafrox.com</p>
+            </div>
+            <div class="all-black-cont flex flex-column h80">
+                <div class="container-two-contact flex w80-xs m-2 h50">
+
+
+                    <div class="two-contact flex black-low white-font p-5-xs m-2">
+                        <div class="flex flex-column l-h3r w33">
+                            <span class="ft-4-5-xs green">LI</span>
+                            <span class="ft-2-xs">LIMA</span>
+                        </div>
+
+                        <div class="l-h1 w33 flex flex-column center">
+
+                            <p class="ft-2-xs text-sm-center">Calle 2 de Mayo 524</p>
+                            <p class="ft-2-xs text-sm-center">Miraflores - Lima, Perú</p>
+                            <p class="ft-2-xs text-sm-center"><i class="fas fa-phone green"></i>(063)750-023</p>
+
+                        </div>
+                        <div class="btn w33 flex center"><button class="btn-white">Ver mapa</button></div>
+                    </div>
+
+                    <div class="two-contact flex black-low white-font p-5-xs m-2">
+                        <div class="flex flex-column l-h3r w33">
+                            <span class="ft-4-5-xs green">OX</span>
+                            <span class="ft-2-xs">OXAPAMPA</span>
+                        </div>
+
+                        <div class="l-h1 w33 flex flex-column center">
+
+                            <p class="ft-2-xs text-sm-center">Carretera a Pozuzo km 5,</p>
+                            <p class="ft-2-xs text-sm-center">zona bajo Santa Clara</p>
+                            <p class="ft-2-xs text-sm-center"><i class="fas fa-phone green"></i>(063)750-023</p>
+
+                        </div>
+                        <div class="btn w33 flex center"><button class="btn-white">Ver mapa</button></div>
+                    </div>
+
+
+                </div>
+                <div class="black-low w80-xs m-2 p-5 flex flex-column h50">
+                    <form class="flex flex-column w100" action="../php/enviar.php" method="post">
+                        <div class="w100">
+                            <div class="row w100">
+                                <div class="col">
+                                    <input type="text" class="form-control m-2" placeholder="Nombre" id="nombre" name="nombre">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control m-2" placeholder="Apellido" id="apellido" name="apellido">
+                                </div>
+                            </div>
+                            <div class="row w100">
+                                <div class="col">
+                                    <input type="text" class="form-control m-2" placeholder="Dirección" id="direccion" name="direccion">
+                                </div>
+
+                            </div>
+                            <div class="row w100">
+                                <div class="col">
+                                    <input type="email" class="form-control m-2" placeholder="E-mail" id="correo" name="correo">
+                                </div>
+                                <div class="col">
+                                    <input type="tel" class="form-control m-2" placeholder="Telefono" id="telefono" name="telefono">
+                                </div>
+                            </div>
+                            <div class="row w100">
+                                <div class="col">
+                                    <input type="text" class="form-control m-2" placeholder="Consulta" id="mensaje" name="mensaje">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="elem-group w100 white-font ">
+                            <div class="row w100 m-2">
+                                <div class="col d-flex center">
+                                    <img src="../php/captcha.php" alt="CAPTCHA" class="captcha-image ">
+                                    <i class="fas fa-redo refresh-captcha m-3"></i>
+
+                                </div>
+                            </div>
+                            <input type="text" id="captcha" class="form-control m-2" name="captcha_challenge" pattern="[A-Z]{6}">
+                        </div>
+
+                        <button type="submit" class="mt-5 btn-green green">ENVIAR</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container-icons">
+                <i class="fab fa-instagram iconH white-font mr-4"></i>
+                <i class="fab fa-youtube  iconH white-font mr-4"></i>
+                <i class="fab fa-facebook-f iconH white-font mr-4"></i>
+            </div>
+        </footer>
+    </main>
+    <script src="js/nav.js"></script>
+    <script>
+        var refreshButton = document.querySelector(".refresh-captcha");
+        refreshButton.onclick = function() {
+            document.querySelector(".captcha-image").src = '../php/captcha.php?' + Date.now();
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,281 @@
+main {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.62)), url(../../assets/_B9A0774.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 130%;
+}
+
+.vw40 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.62));
+}
+
+body {
+    overflow-y: hidden;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.container .card-blog {
+    margin-right: 15px;
+}
+
+.vh100 {
+    height: 100vh;
+}
+
+.flex-center-xd {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.example-three .card-meat {
+    width: 22rem;
+    margin-right: 0rem !important;
+}
+
+.flex-two {
+    margin-right: 1.5rem;
+}
+
+.h80 {
+    height: auto;
+}
+
+.example-three nav {
+    border-radius: 0 0 3px 3px;
+    /* padding-top: 3rem; */
+}
+
+.w100 {
+    width: 100%;
+}
+
+.title {
+    margin-bottom: 0rem;
+}
+
+p,
+h1 {
+    color: white;
+}
+
+.blog0img {
+    position: relative;
+    width: 100%;
+    border-bottom: 4px solid #b1c280;
+}
+
+.blogs {
+    width: 100%;
+}
+
+.f1_2 {
+    font-size: .8rem;
+    line-height: 1.2;
+    margin-bottom: 0rem;
+}
+
+.arrowWhite1 {
+    width: 2rem;
+}
+
+.arrowWhite2 {
+    width: 1.2rem;
+    height: 1.1rem;
+}
+
+.f1_5 {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.f2 {
+    line-height: 1.5;
+}
+
+.cat-title {
+    margin-bottom: 0rem;
+}
+
+.vw40 {
+    width: 20.2%;
+}
+
+
+/* 
+{
+    transform: translateX(-31rem);
+} 
+    transform: translateX(-17rem);
+} {
+    transform: translateX(-17rem);
+}
+*/
+
+footer {
+    right: -18%;
+}
+
+a,
+a:hover,
+a:active {
+    text-decoration: none !important;
+}
+
+.centered-carnes {
+    width: 108%;
+}
+
+.scroll {
+    overflow-y: hidden;
+    overflow-x: hidden
+}
+
+.d-none-desktop {
+    display: none;
+}
+
+.fa-chevron-right,
+.fa-chevron-down {
+    display: none;
+}
+
+.catalog-text {
+    top: 50%;
+}
+
+.arrowWhite1 {
+    width: 2.5rem;
+    padding: 0.2rem;
+    height: 2.5rem;
+    margin-top: 0rem;
+}
+
+@media (max-width:768px) {
+    .arrowWhite1 {
+        width: 3rem;
+        padding: 0.2rem;
+        height: 3rem;
+        margin-top: 6.4rem;
+    }
+    .catalog-text {
+        top: 5%;
+    }
+    .vw40 {
+        background: transparent;
+    }
+    .title {
+        padding: 2rem;
+        margin-bottom: 0rem;
+        display: flex;
+        align-items: center;
+    }
+    .vh100 {
+        height: auto;
+        width: 100%;
+    }
+    body {
+        overflow-y: scroll;
+    }
+    .scroll {
+        overflow-y: scroll;
+        overflow-x: hidden
+    }
+    .centered-carnes {
+        width: 100%;
+    }
+    main {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.62)), url(../../assets/_B9A0994.jpg);
+        background-attachment: fixed;
+    }
+    .blogs {
+        height: 28rem;
+    }
+    .example-three .card-meat {
+        width: 65rem;
+        margin-bottom: 15rem;
+    }
+    footer {
+        right: 2%;
+    }
+    .f1_2 {
+        font-size: 1.5rem;
+    }
+    .vw40 {
+        padding-top: 7rem;
+        width: 100%;
+        height: auto;
+    }
+    .f1_5 {
+        font-size: 4.5rem;
+    }
+    .cat-title {
+        font-size: 10.5rem;
+    }
+    .f1_2 {
+        font-size: 3.5rem;
+    }
+    .arrowWhite1 {
+        width: 7rem;
+        height: 7rem;
+        margin-top: 1.4rem;
+    }
+    .example-three nav {
+        border-radius: 0 0 3px 3px;
+        padding-top: 0rem;
+        height: 77%;
+        overflow-x: scroll;
+    }
+    .arrowWhite2 {
+        width: 4.2rem;
+        height: 4.1rem;
+    }
+    .centered-carnes {
+        top: 50%;
+        transform: translateY(-52%);
+        height: 67%;
+    }
+    .vw60 {
+        width: 100%;
+    }
+    .d-none-cel {
+        display: none;
+    }
+    .d-none-desktop {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        margin-top: 20rem;
+        margin-bottom: 25rem;
+    }
+    .flex-two {
+        margin-right: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 3rem;
+    }
+    .fa-chevron-right,
+    .fa-chevron-down {
+        display: block;
+        color: #b1c280;
+        font-size: 12rem;
+    }
+    .fa-chevron-down {
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+    .carousel-control-next {
+        right: 5rem !important;
+    }
+    .text-mobile-blog {
+        padding: 9rem !important;
+    }
+}
