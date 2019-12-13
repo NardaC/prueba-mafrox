@@ -9,7 +9,7 @@ html {
 }
 
 main {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.32)), url(../../assets/fondo2.png);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.32)), url(../assets/fondo2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
