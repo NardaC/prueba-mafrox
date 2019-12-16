@@ -537,6 +537,12 @@ input[type="radio"]:checked+span {
     width: 5.2rem;
 }
 
+@media (min-width: 728px) {
+    .carnePrincipalCard {
+        width: 50%;
+    }
+}
+
 @media (max-width:780px) {
     .title-card-meat1 {
         align-items: flex-start;
@@ -638,4 +644,10 @@ input[type="radio"]:checked+span {
 
 .dNone {
     display: none;
+}
+
+@media (min-width: 908px) {
+    .carnePrincipalCard {
+        width: 80%;
+    }
 }
