@@ -195,6 +195,7 @@ header {
         margin-bottom: .8rem !important;
     }
     .title {
+        padding-top: 6rem;
         justify-content: center;
         padding-left: 4rem;
     }
@@ -230,9 +231,6 @@ header {
         padding: 4rem;
         height: 60%;
     }
-    .border-white-btn {
-        display: none;
-    }
     .vaca-img {
         width: 50%;
         position: relative;
@@ -260,6 +258,7 @@ header {
     .arrowWhite {
         width: 4rem;
         height: auto;
+        margin-right: 1rem;
     }
     .flex-end {
         display: flex;
