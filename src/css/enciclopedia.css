@@ -39,9 +39,8 @@ main {
 }
 
 .container-white {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    height: 100%;
+    padding-top: 5rem !important;
 }
 
 .three-border-w {
@@ -172,18 +171,18 @@ header {
 }
 
 @media (max-width: 768px) {
-    .mt-xs{
+    .mt-xs {
         margin-bottom: 3.5rem!important;
     }
-    .ver-productos{
+    .ver-productos {
         margin-top: 5rem!important;
         padding-left: 47rem;
     }
     .three-border-w {
-       padding: 3rem!important;
-       margin-bottom: 3rem!important;
+        padding: 3rem!important;
+        margin-bottom: 3rem!important;
     }
-    .contenedor-enciclopedia{
+    .contenedor-enciclopedia {
         padding: 8rem!important;
     }
     .vh100 {
@@ -200,7 +199,7 @@ header {
         padding-left: 4rem;
     }
     .line-h {
-        width: 90%;
+        line-height: .9;
     }
     #menuToggle input:checked~ul {
         right: -3.3rem;
@@ -215,12 +214,12 @@ header {
     }
     .container-white {
         position: relative;
-        padding-top: 50% !important;
-        padding-bottom: 50%;
-        top: 0%;
+        padding-top: 10rem !important;
+        top: 10%;
         transform: unset;
     }
     .vw40 {
+        height: auto;
         width: 100%;
         position: inherit;
         top: 0;
@@ -230,6 +229,9 @@ header {
         width: 100%;
         padding: 4rem;
         height: 60%;
+    }
+    .border-white-btn {
+        display: none;
     }
     .vaca-img {
         width: 50%;
@@ -242,14 +244,14 @@ header {
         display: none !important;
     }
     h1 {
-        font-size: 5rem!important;
+        font-size: 7rem!important;
     }
     p {
-        font-size: 2.5rem;
-        text-align: center;
+        font-size: 4rem;
+        text-align: initial;
     }
     .sz-2 {
-        font-size: 2.5rem;
+        font-size: 4rem;
     }
     .arrowWhite1 {
         width: 4.5rem;
