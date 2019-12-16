@@ -43,7 +43,7 @@ header nav {
     flex-direction: column;
     justify-content: center;
     padding-top: 9rem;
-    padding-bottom: 9rem;
+    padding-bottom: 2rem;
     z-index: 2;
     align-items: center;
     padding-left: 1rem;
@@ -116,7 +116,18 @@ footer {
     font-size: 2rem;
 }
 
+.container-icons1 {
+    height: 24%;
+    display: flex;
+    align-items: flex-end;
+}
+
 @media (max-width: 768px) {
+    .container-icons1 {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
     header nav {
         width: 60%;
     }
@@ -139,6 +150,9 @@ footer {
     }
     header nav a {
         margin: 5rem 0;
+        width: 100%;
+        text-align: right;
+        padding-right: 5rem;
     }
     .border-white-btn {
         position: relative;
