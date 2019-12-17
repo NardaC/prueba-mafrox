@@ -20,7 +20,7 @@ main {
     width: 30%;
     height: 100vh;
     position: relative;
-    background: linear-gradient( rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.62)), url(../assets/_B9A2037.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.62)), url(../assets/fondo-carne.png);
     background-position-x: center;
     background-size: cover;
 }
