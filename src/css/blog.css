@@ -190,7 +190,7 @@ a:active {
         width: 100%;
     }
     main {
-        background-image: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.62)), url(../assets/_B9A0994.jpg);
+        background-image: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.62)), url(../assets/fondo-blog.png);
         background-attachment: fixed;
     }
     .blogs {
