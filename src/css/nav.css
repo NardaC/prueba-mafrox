@@ -2,7 +2,7 @@ header {
     text-align: center;
     padding-bottom: 1rem;
     padding-top: 1rem;
-    position: fixed;
+    position: absolute;
     z-index: 2;
     width: 100%;
     top: 0;
@@ -149,10 +149,10 @@ footer {
         margin-right: 5rem!important;
     }
     header nav a {
-        margin: 5rem 0;
+        margin: 5rem 0px;
         width: 100%;
         text-align: right;
-        padding-right: 5rem;
+        padding-right: 8rem;
     }
     .border-white-btn {
         position: relative;
